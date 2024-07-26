@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #70bb82;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #090808;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+
+
+.bottom-right-arrow {
+    position: absolute;
+    bottom: 10px; /* Adjust the value as needed */
+    right: 10px; /* Adjust the value as needed */
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-left-arrow, .bottom-right-arrow {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+.bottom-left-arrow {
+    position: absolute;
+    bottom: 10px; /* Adjust the value as needed */
+    left: 10px; /* Adjust the value as needed */
+}
+
+.bottom-right-arrow {
+    position: absolute;
+    bottom: 10px; /* Adjust the value as needed */
+    right: 10px; /* Adjust the value as needed */
+}

@@ -1,0 +1,20 @@
+.bottom-right-arrow {
+    position: absolute;
+    bottom: 10px; /* Adjust the value as needed */
+    right: 10px; /* Adjust the value as needed */
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-left-arrow, .bottom-right-arrow {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+}
